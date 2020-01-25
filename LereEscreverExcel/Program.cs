@@ -11,12 +11,11 @@ namespace LereEscreverExcel
     {
         static void Main(string[] args)
         {
+            List<Livro> Lista = new List<Livro>();
+
             Livro livro = new Livro();
             livro.Titulo = "Biblia Sagrada";
             livro.ISBN = 1111;
-
-            List<Livro> Lista = new List<Livro>();
-
             Lista.Add(livro) ;
 
             Livro livro2 = new Livro();
